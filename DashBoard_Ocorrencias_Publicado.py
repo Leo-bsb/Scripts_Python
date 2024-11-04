@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
 
 # Armazenando as tabelas em dataframes do pandas
-ocorrencias = pd.read_csv('ocorrencias_ride.csv')
+ocorrencias = pd.read_csv('ocorrencias_ride_2020_2024_novembro.csv')
 
 # Fechar a conexão (não é necessário explicitamente com SQLAlchemy)
 # engine.dispose() pode ser usado se você quiser fechar explicitamente a conexão
